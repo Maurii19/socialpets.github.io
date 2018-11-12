@@ -6,7 +6,7 @@
 <p>Proyecto de clase, que consiste en una red social para mascotas</p>
 
 
-Me he basado en este template, para crear mi landing page.
+Me he basado en el template Grayscale, para crear mi landing page.
 
 # [Template - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
 

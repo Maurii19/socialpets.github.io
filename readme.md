@@ -1,10 +1,9 @@
 
 ##                                                          Social Pets
 
-![Social Pets Logo](www.maurii.tk(https://preview.ibb.co/kgoOiV/logo.png))
+![Social Pets Logo](https://preview.ibb.co/kgoOiV/logo.png)
 
-<p>Proyecto de clase, que consiste en una red social para mascotas</p>
-
+[Social Pets](https://www.maurii.tk) es un proyecto de clase, que consiste en una red social para mascotas.
 
 Me he basado en el template Grayscale, para crear mi landing page.
 

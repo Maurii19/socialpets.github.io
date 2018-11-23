@@ -27,5 +27,13 @@ class SocialPetsController extends Controller
   		return redirect('index')->with('success-message', 'Mail enviado con exito!');
   		
 	}
+  
+  public function getUserPanel(){
+    return view('userPanel');
+
+  }
+
+
+
     
 }

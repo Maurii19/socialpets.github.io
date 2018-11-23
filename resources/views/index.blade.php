@@ -24,9 +24,6 @@
 
   </head>
 
-  <script>
-$('div.alert').delay(5000).slideUp(300);
-</script>
 
 
   <body id="page-top">
@@ -63,7 +60,7 @@ $('div.alert').delay(5000).slideUp(300);
           </ul>
         <ul class="navbar-nav mr navbar">
            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Login <i class="fas fa-sign-in-alt"></i></a>
+              <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target="#myModal">Login <i class="fas fa-sign-in-alt"></i></a>
             </li>
            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#">Register <i class="fas fa-user-circle"></i></a>
@@ -168,7 +165,7 @@ $('div.alert').delay(5000).slideUp(300);
   <div class="form-row">
     <div class="form-group col-md-12">
       <label for="email" style="font-weight: bold; color: white">Email</label>
-      <input type="email" class="form-control" id="email" placeholder="Email" name="email" required="true">
+      <input type="email" class="form-control"  placeholder="Email" name="email" required="true">
     </div>
   </div>
   <div class="form-row">
@@ -270,7 +267,12 @@ $('div.alert').delay(5000).slideUp(300);
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+    <script src="/js/emailValidator.js"></script>  
+  <script>
+$('div.alert').delay(5000).slideUp(300);
+</script>
 
   </body>
 
 </html>
+@include('login')
